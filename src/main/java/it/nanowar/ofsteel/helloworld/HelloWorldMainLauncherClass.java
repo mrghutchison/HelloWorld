@@ -1,6 +1,7 @@
 package it.nanowar.ofsteel.helloworld;
 
 public class HelloWorldMainLauncherClass {
+	private Integer foo=0;
 	
 	public HelloWorldMainLauncherClass(int foo) {
 		
@@ -8,7 +9,7 @@ public class HelloWorldMainLauncherClass {
 		this.foo=foo;
 	}
 	
-	private Integer foo=0;
+	
 	
 	public void songRefrain() {
 		
@@ -42,7 +43,7 @@ public class HelloWorldMainLauncherClass {
 	public void falseMethod() {
 		boolean metal=false;
 		if(metal==false) {
-			String joeyDeCaio=null;
+			String joeyDeCaio="";
 			joeyDeCaio.length();
 		}
 	}
