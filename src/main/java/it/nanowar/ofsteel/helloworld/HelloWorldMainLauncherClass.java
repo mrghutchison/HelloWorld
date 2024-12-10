@@ -43,7 +43,7 @@ public class HelloWorldMainLauncherClass {
 	public void falseMethod() {
 		boolean metal=false;
 		if(metal==false) {
-			String joeyDeCaio="";
+			String joeyDeCaio="Hi Grant lol ";
 			joeyDeCaio.length();
 		}
 	}
